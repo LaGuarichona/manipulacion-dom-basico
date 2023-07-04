@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAnipulación del DOM Básico</title>
+</head>
+<body>
+    <h1>Manipulación del DOM Básica</h1>
+   
+    <form id="form" action=""> 
+        
+        <input id="calculo1" placeholder="Escribe algo aquí">
+        <input onchange="console.log('cambió el input')" id="calculo2" placeholder="Escribe algo aquí">
+         
+        <button type="button" id="btnCalcular">Calcular</button>
+        <!-- Le cambio el tipo al boton como button, sino lo va a leer como submit (lo que lo asigna por defecto y va a recargar la pagina -->
+            
+        <p id="resultado"></p>
+    </form>
+
+    
+   
+
+    <script src="./Bonus.js"></script>
+</body>
+</html>

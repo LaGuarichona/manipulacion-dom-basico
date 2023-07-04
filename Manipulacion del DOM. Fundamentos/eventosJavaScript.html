@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAnipulación del DOM Básico</title>
+</head>
+<body>
+    <h1>Manipulación del DOM Básica</h1>
+   
+   
+    <input id="calculo1" placeholder="Escribe algo aquí">
+    <input onchange="console.log('cambió el input')" id="calculo2" placeholder="Escribe algo aquí">
+
+    <!-- Para no escribir un código larguísimo en el onclick, lo que puedo hacer es colocar una función que se ejecutará en javascript cada vez que recibamos el evento de onclick  -->
+    <button id="btnCalcular" onclick="btnOnClick()">Calcular</button>
+
+    <!-- Para escuchar eventos se utiliza onclick para button, onchange para input, termina de escuchar lo que los usuarios terminaron de escribir en su input, onsubmit para formularios  -->
+    <p id="resultado"></p>
+
+    <script src="./eventosJavaScript.js"></script>
+</body>
+</html>

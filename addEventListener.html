@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAnipulación del DOM Básico</title>
+</head>
+<body>
+    <h1>Manipulación del DOM Básica</h1>
+   
+    <form id="form" action=""> 
+        
+        <input id="calculo1" placeholder="Escribe algo aquí">
+        <input onchange="console.log('cambió el input')" id="calculo2" placeholder="Escribe algo aquí">
+         
+        <button id="btnCalcular">Calcular</button>
+            
+        <p id="resultado"></p>
+    </form>
+
+    <!-- Los formularios utilizan el último botón para enviar, para escuchar el evento de submit -->
+   
+
+    <script src="./addEventListener.js"></script>
+</body>
+</html>
